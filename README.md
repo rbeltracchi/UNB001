@@ -1,1 +1,1 @@
-
+En observaciones generales el proyecto está pensado para instituciones protectoras de animales y veterinarias, no en publico general. El denunciante no se asume como dueño de la mascota si no se busca por el tipo de denuncia (Perdido o Encontrado), la información del dueño es el Denunciante (Puede ser el dueño o no de la mascota).
