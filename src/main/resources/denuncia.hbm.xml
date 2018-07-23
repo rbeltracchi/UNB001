@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernateconfiguration-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.unb001.mascotasenred.modelo.Denuncia" table="denuncia">
+        <id name="nroDenuncia" column="nroDenuncia">
+        <generator class="increment"/>
+        </id>
+        <property name="tipoDenuncia"/>
+        <property name="fecha"/>
+           
+        
+        <many-to-one name="denunciante" class="com.unb001.mascotasenred.modelo.Denunciante" column="denunciante_dni"/>
+        <many-to-one name="mascota" class="com.unb001.mascotasenred.modelo.Mascota" column= "mascota_idMascota"/>
+                    
+    </class>
+</hibernate-mapping>
